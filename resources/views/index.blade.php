@@ -15,7 +15,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">
 <style>
 label {
-    color: #246563;
+    color: #246248;
     font-weight: bold;
 }
 .searchbar{
@@ -27,10 +27,11 @@ label {
     border: none;
 }
 header{
-    background-image: url("https://images.pexels.com/photos/616358/pexels-photo-616358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("dpkoto.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110Vh;
+    width: 230vh;
 }
 .signupbutton{
     border: 0;
@@ -48,7 +49,7 @@ h1{
     font-family: "Merienda", sans-serif;
     letter-spacing: 15px;
     font-size: 90px;
-    color: #246563;
+    color: #92e000;
 }
 h4{
     margin-top: 10px;
@@ -148,10 +149,10 @@ h4{
             </div>
         </div>
     </div>
-    <h1> SIRAM</h1>
-    <h4>Hundreds of flavors under one site.</h4>
+    <h1> Maradjaw</h1>
+    <h4>Thousands of smile under one site.</h4>
     <div class="col d-flex justify-content-center">
-        <a type="button" class="signupbutton btn" onclick="location.href='{{ url('home') }}'">START</a>
+        <a type="button" class="signupbutton btn" onclick="location.href='{{ url('home') }}'">Let go!</a>
     </div>
 </header>
 
