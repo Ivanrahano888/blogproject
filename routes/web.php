@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\LoginController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +24,12 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'home']);
+Route::get('/registration', [CustomAuthController::class,'registration']);
+Route::post('/register-user',[CustomAuthController::class,'registerUser'])->name('register-user');
+
+Route::post('/login-user', [CustomAuthController::class,'loginUser'])->name('login-user');
+Route::get('/login', [CustomAuthController::class,'login'])->middleware('alreadyLoggedIn');
+
+Route::get('/userdashboard',[CustomAuthController::class,'userdashboard'])->middleware('isLoggedIn');
+Route::get('/logout',[CustomAuthController::class,'logout']);
+

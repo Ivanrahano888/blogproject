@@ -1250,9 +1250,9 @@ table.dataTable thead > tr > td.sorting {
 -----------------------*/
 
 .header {
-	background: #30c5ca;
-	background: -moz-linear-gradient(left, #30c5ca 0%, #453a94 100%);
-	background: -webkit-linear-gradient(left, #30c5ca 0%, #453a94 100%);
+	background: #a903b1;
+	background: -moz-linear-gradient(left, #75cacd 0%, #cc53c0 100%);
+	background: -webkit-linear-gradient(left, #8c9090 0%, #484560 100%);
 	background: -ms-linear-gradient(left, #30c5ca 0%, #453a94 100%);
 	background: linear-gradient(to right, #30c5ca 0%, #453a94 100%);
 	border-bottom: 1px solid transparent;
@@ -1860,7 +1860,7 @@ table.dataTable thead > tr > td.sorting {
 -----------------------*/
 
 .card-table .card-header {
-	background-color: #fff;
+	background-color: rgb(214, 180, 180);
 	border-bottom: 1px solid #ddd;
 	padding: 15px;
 }
@@ -1868,7 +1868,7 @@ table.dataTable thead > tr > td.sorting {
 	padding: 0;
 }
 .card-table .card-footer {
-	background-color: #fff;
+	background-color: rgb(186, 169, 169);
 	text-align: center;
 }
 .card-table .card-footer a {
@@ -1879,7 +1879,7 @@ table.dataTable thead > tr > td.sorting {
 }
 .custom-table tr {
 	background-color: #fff;
-	box-shadow: 0 0 3px #e5e5e5;
+	box-shadow: 0 0 3px #b0bec5;
 }
 .table.custom-table > tbody > tr > td,
 .table.custom-table > tbody > tr > th,
@@ -1942,7 +1942,7 @@ table.dataTable thead > tr > td.sorting {
 	margin-bottom: 0;
 }
 .load-more a {
-    background-color: #fff;
+    background-color: rgb(228, 222, 222);
     border: 1px solid #eaeaea;
     border-radius: 3px;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -2371,18 +2371,19 @@ table.dataTable thead > tr > td.sorting {
 	background-color: #f7f7f7;
 }
 .fixed-header {
-	background-color: #fff;
+	background-color: rgb(213, 201, 201);
 	border-bottom: 1px solid #eaeaea;
 	padding: 10px 15px;
 }
 .fixed-header .navbar {
 	border: 0 none;
+	
 	margin: 0;
 	min-height: auto;
 	padding: 0;
 }
 .fixed-header .user-info a {
-	color: #555;
+	color: rgb(173, 159, 159);
 	text-transform: uppercase;
 }
 .typing-text {

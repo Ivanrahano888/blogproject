@@ -12,10 +12,10 @@
 
     <title>My Blog Project</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">
+    <link rel="shortcut icon" type="image/x-icon" href="public/assets/img/maradjaw logo.png">
 <style>
 label {
-    color: #246248;
+    color: #46376d;
     font-weight: bold;
 }
 .searchbar{
@@ -30,12 +30,12 @@ header{
     background-image: url("dpkoto.JPEG");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110Vh;
-    width: 230vh;
+    height: 100Vh;
+    width: 205vh;
 }
 .signupbutton{
     border: 0;
-    background-color:#246563;
+    background-color:#afdb9a;
     color: white;
 }
 .btn{
@@ -49,7 +49,7 @@ h1{
     font-family: "Merienda", sans-serif;
     letter-spacing: 15px;
     font-size: 90px;
-    color: #92e000;
+    color: #46376d;
 }
 h4{
     margin-top: 10px;
@@ -152,7 +152,7 @@ h4{
     <h1> Maradjaw</h1>
     <h4>Thousands of smile under one site.</h4>
     <div class="col d-flex justify-content-center">
-        <a type="button" class="signupbutton btn" onclick="location.href='{{ url('home') }}'">Let go!</a>
+        <a type="button" class="signupbutton btn" onclick="location.href='{{ url('home') }}'">Lets go!</a>
     </div>
 </header>
 

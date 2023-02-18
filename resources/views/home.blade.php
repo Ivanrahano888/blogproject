@@ -8,7 +8,7 @@
         <title>Maradjaw | Home</title>
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/bowl-rice-solid-24.png">		
+        <link rel="shortcut icon" type="image/x-icon">		
 		<!-- Bootstrap CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<!-- Fontawesome CSS -->
@@ -39,7 +39,7 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="index" class="logo">
-						<img src="assets/img/siram.png" width="80" height="80" alt="">
+						<img src="assets/img/maradjaw black.png" width="100" height="60" alt="">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -52,7 +52,7 @@
 				</a>
 				<!-- Header Title -->
                 <div class="page-title-box">
-                    <h3 class="page-title">Welcome {{ Session::get('name') }}!</h3>
+                    <h3 class="page-title">Welcome to Maradjaw travel blogs {{ Session::get('name') }}!</h3>
                 </div>
 				<!-- /Header Title -->
 				
@@ -140,32 +140,16 @@
 								</ul>
 							</li>
 							<li class="submenu">
+
+
 								<a href="#"><i class="la la-cube"></i> <span> Browse Channels</span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="chat.html">Vloger's events</a></li>
 								</ul>
 							</li>
-							<li class="menu-title"> 
-								<span>Communities</span>
-							</li>
-							<li class="submenu">
-								<a href="#" class="noti-dot"><i class="la la-user"></i> <span> Comments</span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="employees.html">town-hall</a></li>
-								</ul>
-							</li>
-							<li> 
-								<a href="clients.html"><i class="la la-users"></i> <span>Clients</span></a>
-							</li>
-							<li> 
-								<a href="leads.html"><i class="la la-user-secret"></i> <span>Leads</span></a>
-							</li>
-							<li> 
-								<a href="tickets.html"><i class="la la-ticket"></i> <span>Tickets</span></a>
-							</li>
-							<li class="menu-title"> 
-								<span>Performance</span>
-							</li>
+
+
+
 							<li class="menu-title"> 
 								<span>Administration</span>
 							</li>
@@ -210,14 +194,6 @@
 								</ul>
 							</li>
 							<li class="submenu">
-								<a href="#"><i class="la la-hand-o-up"></i> <span> Subscriptions </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="subscriptions.html"> Subscriptions (Admin) </a></li>
-									<li><a href="subscriptions-company.html"> Subscriptions (Company) </a></li>
-									<li><a href="subscribed-companies.html"> Subscribed Companies</a></li>
-								</ul>
-							</li>
-							<li class="submenu">
 								<a href="#"><i class="la la-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
 								<ul style="display: none;">
 									<li><a href="search.html"> Search </a></li>
@@ -228,28 +204,7 @@
 								</ul>
 							</li>
 							<li class="menu-title"> 
-								<span>UI Interface</span>
-							</li>
-							<li> 
-								<a href="components.html"><i class="la la-puzzle-piece"></i> <span>Components</span></a>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-object-group"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="form-basic-inputs.html">Basic Inputs </a></li>
-									<li><a href="form-input-groups.html">Input Groups </a></li>
-									<li><a href="form-horizontal.html">Horizontal Form </a></li>
-									<li><a href="form-vertical.html"> Vertical Form </a></li>
-									<li><a href="form-mask.html"> Form Mask </a></li>
-									<li><a href="form-validation.html"> Form Validation </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="la la-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="tables-basic.html">Basic Tables </a></li>
-									<li><a href="data-tables.html">Data Table </a></li>
-								</ul>
+					
 							</li>
 						</ul>
 					</div>
